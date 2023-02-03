@@ -8,6 +8,7 @@
 import Foundation
 
 enum HeartRateStatus {
+    case empty
     case stimulation
     case measurement
 }
