@@ -17,4 +17,12 @@ class HeartRateMeasurementsConfigurator {
         
     }
     
+    func statusFrom(heartRate: Int) -> HeartRateStatus {
+        if heartRate < 100 {
+            return .measurement
+        } else {
+            return .stimulation
+        }
+    }
+    
 }
