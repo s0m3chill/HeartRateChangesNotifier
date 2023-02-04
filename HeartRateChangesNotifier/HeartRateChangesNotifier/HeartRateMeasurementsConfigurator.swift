@@ -18,11 +18,19 @@ class HeartRateMeasurementsConfigurator {
     }
     
     func statusFrom(heartRate: Int) -> HeartRateStatus {
-        if heartRate < 100 {
+        if heartRate < 80 {
             return .measurement
         } else {
             return .stimulation
         }
+    }
+    
+    func updateMeasurementLogic() {
+        // TODO
+    }
+    
+    func updateStimulationLogic() {
+        // TODO
     }
     
 }
