@@ -15,6 +15,7 @@
 		472059DE298DAEC20021D753 /* HeartRateChangesNotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059DD298DAEC20021D753 /* HeartRateChangesNotifierUITests.swift */; };
 		472059E0298DAEC20021D753 /* HeartRateChangesNotifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059DF298DAEC20021D753 /* HeartRateChangesNotifierUITestsLaunchTests.swift */; };
 		472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059EC298DAFEF0021D753 /* HeartRateStatus.swift */; };
+		472059EF298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		472059DD298DAEC20021D753 /* HeartRateChangesNotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateChangesNotifierUITests.swift; sourceTree = "<group>"; };
 		472059DF298DAEC20021D753 /* HeartRateChangesNotifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateChangesNotifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		472059EC298DAFEF0021D753 /* HeartRateStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateStatus.swift; sourceTree = "<group>"; };
+		472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurementsConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				472059C6298DAEC20021D753 /* Assets.xcassets */,
 				472059C8298DAEC20021D753 /* Preview Content */,
 				472059EC298DAFEF0021D753 /* HeartRateStatus.swift */,
+				472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */,
 			);
 			path = HeartRateChangesNotifier;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				472059C5298DAEC10021D753 /* ContentView.swift in Sources */,
 				472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */,
+				472059EF298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift in Sources */,
 				472059C3298DAEC10021D753 /* HeartRateChangesNotifierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
