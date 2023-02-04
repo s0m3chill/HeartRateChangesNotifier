@@ -36,7 +36,7 @@ class HeartRateMeasurementsConfigurator {
         }
         
         if wasMeasured {
-            return .empty + "bpm"
+            return .empty + "bmp"
         } else {
             return .stimulation
         }
