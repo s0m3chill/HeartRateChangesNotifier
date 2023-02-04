@@ -29,8 +29,17 @@ class HeartRateMeasurementsConfigurator {
         // TODO
     }
     
-    func updateStimulationLogic() {
-        // TODO
+    func updateStimulationLogic() -> HeartRateStatus {
+        var wasMeasured = false
+        if operatingStatus == .measurementRunning {
+            wasMeasured = true
+        }
+        
+        if wasMeasured {
+            return .empty + "bpm"
+        } else {
+            return .stimulation
+        }
     }
     
 }
