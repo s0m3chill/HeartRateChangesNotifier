@@ -16,6 +16,7 @@
 		472059E0298DAEC20021D753 /* HeartRateChangesNotifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059DF298DAEC20021D753 /* HeartRateChangesNotifierUITestsLaunchTests.swift */; };
 		472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059EC298DAFEF0021D753 /* HeartRateStatus.swift */; };
 		472059EF298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */; };
+		473A8940299412D200B4DB9F /* HeartRateConflictLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A893F299412D200B4DB9F /* HeartRateConflictLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		472059DF298DAEC20021D753 /* HeartRateChangesNotifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateChangesNotifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		472059EC298DAFEF0021D753 /* HeartRateStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateStatus.swift; sourceTree = "<group>"; };
 		472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurementsConfigurator.swift; sourceTree = "<group>"; };
+		473A893F299412D200B4DB9F /* HeartRateConflictLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateConflictLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				472059C8298DAEC20021D753 /* Preview Content */,
 				472059EC298DAFEF0021D753 /* HeartRateStatus.swift */,
 				472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */,
+				473A893F299412D200B4DB9F /* HeartRateConflictLogic.swift */,
 			);
 			path = HeartRateChangesNotifier;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				472059C5298DAEC10021D753 /* ContentView.swift in Sources */,
 				472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */,
+				473A8940299412D200B4DB9F /* HeartRateConflictLogic.swift in Sources */,
 				472059EF298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift in Sources */,
 				472059C3298DAEC10021D753 /* HeartRateChangesNotifierApp.swift in Sources */,
 			);
