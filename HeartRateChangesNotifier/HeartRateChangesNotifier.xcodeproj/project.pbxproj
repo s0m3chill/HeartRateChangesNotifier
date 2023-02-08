@@ -17,6 +17,7 @@
 		472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059EC298DAFEF0021D753 /* HeartRateStatus.swift */; };
 		472059EF298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */; };
 		473A893C2994126900B4DB9F /* HeartRateNewLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A893B2994126900B4DB9F /* HeartRateNewLogic.swift */; };
+		473A893E2994129700B4DB9F /* HeartRateOldLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		472059EC298DAFEF0021D753 /* HeartRateStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateStatus.swift; sourceTree = "<group>"; };
 		472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurementsConfigurator.swift; sourceTree = "<group>"; };
 		473A893B2994126900B4DB9F /* HeartRateNewLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateNewLogic.swift; sourceTree = "<group>"; };
+		473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateOldLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				472059EC298DAFEF0021D753 /* HeartRateStatus.swift */,
 				472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */,
 				473A893B2994126900B4DB9F /* HeartRateNewLogic.swift */,
+				473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */,
 			);
 			path = HeartRateChangesNotifier;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				472059C5298DAEC10021D753 /* ContentView.swift in Sources */,
 				473A893C2994126900B4DB9F /* HeartRateNewLogic.swift in Sources */,
 				472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */,
+				473A893E2994129700B4DB9F /* HeartRateOldLogic.swift in Sources */,
 				472059EF298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift in Sources */,
 				472059C3298DAEC10021D753 /* HeartRateChangesNotifierApp.swift in Sources */,
 			);
