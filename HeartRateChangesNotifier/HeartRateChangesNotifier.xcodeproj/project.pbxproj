@@ -19,6 +19,7 @@
 		473A893C2994126900B4DB9F /* HeartRateNewLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A893B2994126900B4DB9F /* HeartRateNewLogic.swift */; };
 		473A893E2994129700B4DB9F /* HeartRateOldLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */; };
 		473A894A299446F200B4DB9F /* HeartRate1Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A8949299446F200B4DB9F /* HeartRate1Logic.swift */; };
+		473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A894B2994473600B4DB9F /* HeartRate2Logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		473A893B2994126900B4DB9F /* HeartRateNewLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateNewLogic.swift; sourceTree = "<group>"; };
 		473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateOldLogic.swift; sourceTree = "<group>"; };
 		473A8949299446F200B4DB9F /* HeartRate1Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate1Logic.swift; sourceTree = "<group>"; };
+		473A894B2994473600B4DB9F /* HeartRate2Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate2Logic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		472059B6298DAEC10021D753 = {
 			isa = PBXGroup;
 			children = (
+				473A894B2994473600B4DB9F /* HeartRate2Logic.swift */,
 				473A8949299446F200B4DB9F /* HeartRate1Logic.swift */,
 				472059C1298DAEC10021D753 /* HeartRateChangesNotifier */,
 				472059D2298DAEC20021D753 /* HeartRateChangesNotifierTests */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */,
 				472059C5298DAEC10021D753 /* ContentView.swift in Sources */,
 				473A893C2994126900B4DB9F /* HeartRateNewLogic.swift in Sources */,
 				472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */,
