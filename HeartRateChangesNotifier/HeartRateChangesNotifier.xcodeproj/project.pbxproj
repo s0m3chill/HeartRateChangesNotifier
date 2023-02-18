@@ -21,7 +21,6 @@
 		473A894A299446F200B4DB9F /* HeartRate1Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A8949299446F200B4DB9F /* HeartRate1Logic.swift */; };
 		473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A894B2994473600B4DB9F /* HeartRate2Logic.swift */; };
 		479E882329A0D6E3007DDF0C /* Randomizer in Frameworks */ = {isa = PBXBuildFile; productRef = 479E882229A0D6E3007DDF0C /* Randomizer */; };
-		479E882529A0D701007DDF0C /* HeartRateRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E882429A0D701007DDF0C /* HeartRateRandomizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,7 @@
 		473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateOldLogic.swift; sourceTree = "<group>"; };
 		473A8949299446F200B4DB9F /* HeartRate1Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate1Logic.swift; sourceTree = "<group>"; };
 		473A894B2994473600B4DB9F /* HeartRate2Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate2Logic.swift; sourceTree = "<group>"; };
-		479E882429A0D701007DDF0C /* HeartRateRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateRandomizer.swift; sourceTree = "<group>"; };
+		479E882629A0DE2D007DDF0C /* HeartRateGenerator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HeartRateGenerator; path = ../../HeartRateGenerator; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +111,7 @@
 		472059C1298DAEC10021D753 /* HeartRateChangesNotifier */ = {
 			isa = PBXGroup;
 			children = (
+				479E882629A0DE2D007DDF0C /* HeartRateGenerator */,
 				472059C2298DAEC10021D753 /* HeartRateChangesNotifierApp.swift */,
 				472059C4298DAEC10021D753 /* ContentView.swift */,
 				472059C6298DAEC20021D753 /* Assets.xcassets */,
@@ -120,7 +120,6 @@
 				472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */,
 				473A893B2994126900B4DB9F /* HeartRateNewLogic.swift */,
 				473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */,
-				479E882429A0D701007DDF0C /* HeartRateRandomizer.swift */,
 			);
 			path = HeartRateChangesNotifier;
 			sourceTree = "<group>";
@@ -288,7 +287,6 @@
 			files = (
 				473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */,
 				472059C5298DAEC10021D753 /* ContentView.swift in Sources */,
-				479E882529A0D701007DDF0C /* HeartRateRandomizer.swift in Sources */,
 				473A893C2994126900B4DB9F /* HeartRateNewLogic.swift in Sources */,
 				472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */,
 				473A894A299446F200B4DB9F /* HeartRate1Logic.swift in Sources */,
