@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let randomizer = HeartRateStatusRandomizer()
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Heart rate: \(randomizer.generateHeartRate())")
         }
         .padding()
     }

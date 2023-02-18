@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "randomizer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kandelvijaya/Randomizer.git",
+      "state" : {
+        "revision" : "ada6c04d40501ab89b7fcef4f552e1aed8adb73e",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

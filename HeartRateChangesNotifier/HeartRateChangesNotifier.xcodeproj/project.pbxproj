@@ -20,6 +20,8 @@
 		473A893E2994129700B4DB9F /* HeartRateOldLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */; };
 		473A894A299446F200B4DB9F /* HeartRate1Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A8949299446F200B4DB9F /* HeartRate1Logic.swift */; };
 		473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A894B2994473600B4DB9F /* HeartRate2Logic.swift */; };
+		479E882329A0D6E3007DDF0C /* Randomizer in Frameworks */ = {isa = PBXBuildFile; productRef = 479E882229A0D6E3007DDF0C /* Randomizer */; };
+		479E882529A0D701007DDF0C /* HeartRateRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E882429A0D701007DDF0C /* HeartRateRandomizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,7 @@
 		473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateOldLogic.swift; sourceTree = "<group>"; };
 		473A8949299446F200B4DB9F /* HeartRate1Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate1Logic.swift; sourceTree = "<group>"; };
 		473A894B2994473600B4DB9F /* HeartRate2Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate2Logic.swift; sourceTree = "<group>"; };
+		479E882429A0D701007DDF0C /* HeartRateRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateRandomizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479E882329A0D6E3007DDF0C /* Randomizer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +120,7 @@
 				472059EE298E3A6F0021D753 /* HeartRateMeasurementsConfigurator.swift */,
 				473A893B2994126900B4DB9F /* HeartRateNewLogic.swift */,
 				473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */,
+				479E882429A0D701007DDF0C /* HeartRateRandomizer.swift */,
 			);
 			path = HeartRateChangesNotifier;
 			sourceTree = "<group>";
@@ -161,6 +166,9 @@
 			dependencies = (
 			);
 			name = HeartRateChangesNotifier;
+			packageProductDependencies = (
+				479E882229A0D6E3007DDF0C /* Randomizer */,
+			);
 			productName = HeartRateChangesNotifier;
 			productReference = 472059BF298DAEC10021D753 /* HeartRateChangesNotifier.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +241,9 @@
 				Base,
 			);
 			mainGroup = 472059B6298DAEC10021D753;
+			packageReferences = (
+				479E882129A0D6E3007DDF0C /* XCRemoteSwiftPackageReference "Randomizer" */,
+			);
 			productRefGroup = 472059C0298DAEC10021D753 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -277,6 +288,7 @@
 			files = (
 				473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */,
 				472059C5298DAEC10021D753 /* ContentView.swift in Sources */,
+				479E882529A0D701007DDF0C /* HeartRateRandomizer.swift in Sources */,
 				473A893C2994126900B4DB9F /* HeartRateNewLogic.swift in Sources */,
 				472059ED298DAFEF0021D753 /* HeartRateStatus.swift in Sources */,
 				473A894A299446F200B4DB9F /* HeartRate1Logic.swift in Sources */,
@@ -607,6 +619,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		479E882129A0D6E3007DDF0C /* XCRemoteSwiftPackageReference "Randomizer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kandelvijaya/Randomizer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		479E882229A0D6E3007DDF0C /* Randomizer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 479E882129A0D6E3007DDF0C /* XCRemoteSwiftPackageReference "Randomizer" */;
+			productName = Randomizer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 472059B7298DAEC10021D753 /* Project object */;
 }
