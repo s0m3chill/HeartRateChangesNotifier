@@ -21,6 +21,7 @@
 		473A894A299446F200B4DB9F /* HeartRate1Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A8949299446F200B4DB9F /* HeartRate1Logic.swift */; };
 		473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A894B2994473600B4DB9F /* HeartRate2Logic.swift */; };
 		479E882329A0D6E3007DDF0C /* Randomizer in Frameworks */ = {isa = PBXBuildFile; productRef = 479E882229A0D6E3007DDF0C /* Randomizer */; };
+		479E882929A10E6C007DDF0C /* HeartRateGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = 479E882829A10E6C007DDF0C /* HeartRateGenerator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				479E882329A0D6E3007DDF0C /* Randomizer in Frameworks */,
+				479E882929A10E6C007DDF0C /* HeartRateGenerator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 				472059D2298DAEC20021D753 /* HeartRateChangesNotifierTests */,
 				472059DC298DAEC20021D753 /* HeartRateChangesNotifierUITests */,
 				472059C0298DAEC10021D753 /* Products */,
+				479E882729A10E6C007DDF0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +152,13 @@
 			path = HeartRateChangesNotifierUITests;
 			sourceTree = "<group>";
 		};
+		479E882729A10E6C007DDF0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +177,7 @@
 			name = HeartRateChangesNotifier;
 			packageProductDependencies = (
 				479E882229A0D6E3007DDF0C /* Randomizer */,
+				479E882829A10E6C007DDF0C /* HeartRateGenerator */,
 			);
 			productName = HeartRateChangesNotifier;
 			productReference = 472059BF298DAEC10021D753 /* HeartRateChangesNotifier.app */;
@@ -634,6 +645,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 479E882129A0D6E3007DDF0C /* XCRemoteSwiftPackageReference "Randomizer" */;
 			productName = Randomizer;
+		};
+		479E882829A10E6C007DDF0C /* HeartRateGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HeartRateGenerator;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import HeartRateGenerator
 
 struct ContentView: View {
-    let randomizer = HeartRateStatusRandomizer()
+    let randomizer = HeartRateGenerator()
     var body: some View {
         VStack {
             Image(systemName: "globe")
