@@ -21,7 +21,6 @@
 		473A894A299446F200B4DB9F /* HeartRate1Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A8949299446F200B4DB9F /* HeartRate1Logic.swift */; };
 		473A894C2994473600B4DB9F /* HeartRate2Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473A894B2994473600B4DB9F /* HeartRate2Logic.swift */; };
 		479E882329A0D6E3007DDF0C /* Randomizer in Frameworks */ = {isa = PBXBuildFile; productRef = 479E882229A0D6E3007DDF0C /* Randomizer */; };
-		479E882929A10E6C007DDF0C /* HeartRateGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = 479E882829A10E6C007DDF0C /* HeartRateGenerator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		473A893D2994129700B4DB9F /* HeartRateOldLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateOldLogic.swift; sourceTree = "<group>"; };
 		473A8949299446F200B4DB9F /* HeartRate1Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate1Logic.swift; sourceTree = "<group>"; };
 		473A894B2994473600B4DB9F /* HeartRate2Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate2Logic.swift; sourceTree = "<group>"; };
-		479E882629A0DE2D007DDF0C /* HeartRateGenerator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HeartRateGenerator; path = ../../HeartRateGenerator; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				479E882329A0D6E3007DDF0C /* Randomizer in Frameworks */,
-				479E882929A10E6C007DDF0C /* HeartRateGenerator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +111,6 @@
 		472059C1298DAEC10021D753 /* HeartRateChangesNotifier */ = {
 			isa = PBXGroup;
 			children = (
-				479E882629A0DE2D007DDF0C /* HeartRateGenerator */,
 				472059C2298DAEC10021D753 /* HeartRateChangesNotifierApp.swift */,
 				472059C4298DAEC10021D753 /* ContentView.swift */,
 				472059C6298DAEC20021D753 /* Assets.xcassets */,
@@ -177,7 +173,6 @@
 			name = HeartRateChangesNotifier;
 			packageProductDependencies = (
 				479E882229A0D6E3007DDF0C /* Randomizer */,
-				479E882829A10E6C007DDF0C /* HeartRateGenerator */,
 			);
 			productName = HeartRateChangesNotifier;
 			productReference = 472059BF298DAEC10021D753 /* HeartRateChangesNotifier.app */;
@@ -645,10 +640,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 479E882129A0D6E3007DDF0C /* XCRemoteSwiftPackageReference "Randomizer" */;
 			productName = Randomizer;
-		};
-		479E882829A10E6C007DDF0C /* HeartRateGenerator */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = HeartRateGenerator;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
